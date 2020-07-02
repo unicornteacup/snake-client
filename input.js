@@ -32,6 +32,13 @@ const handleUserInput = function(key) {
   if (key === 'd') {
     connection.write('Move: right')
   }
+  if (key === '3') {
+    // max 20
+    connection.write('Say: Out of my way worms!')
+  }
+  if (key === 'q') {
+    connection.write('Say: Nice day 4 a slither')
+  }
 };
 
 const inputObject = {
